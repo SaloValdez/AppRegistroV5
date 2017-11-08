@@ -1,0 +1,328 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+Este archivo es utilizado por el proceso de paquete/publicación de nuestro proyecto Web. Puede personalizar el comportamiento de este proceso
+editando este archivo MSBuild. Para conocer más acerca de esto, visite http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\inetpub\AppRegistro</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/AppRegistro.dll">
+      <publishTime>11/07/2017 16:49:37</publishTime>
+    </File>
+    <File Include="bin/AppRegistro.pdb">
+      <publishTime>11/07/2017 16:49:37</publishTime>
+    </File>
+    <File Include="bin/AppRegistro.xml">
+      <publishTime>11/07/2017 16:49:37</publishTime>
+    </File>
+    <File Include="css/blue.css">
+      <publishTime>10/26/2017 09:37:16</publishTime>
+    </File>
+    <File Include="css/bootstrap-reset.css">
+      <publishTime>10/26/2017 09:37:16</publishTime>
+    </File>
+    <File Include="css/bootstrap.min.css">
+      <publishTime>10/26/2017 09:37:16</publishTime>
+    </File>
+    <File Include="css/clndr.css">
+      <publishTime>10/26/2017 09:37:16</publishTime>
+    </File>
+    <File Include="css/custom-ico-fonts.css">
+      <publishTime>10/26/2017 09:37:16</publishTime>
+    </File>
+    <File Include="css/font-awesome.min.css">
+      <publishTime>10/26/2017 09:37:16</publishTime>
+    </File>
+    <File Include="css/font/fontawesome-webfontba72.eot">
+      <publishTime>10/26/2017 09:37:22</publishTime>
+    </File>
+    <File Include="css/font/fontawesome-webfontba72.svg">
+      <publishTime>10/26/2017 09:37:22</publishTime>
+    </File>
+    <File Include="css/font/fontawesome-webfontba72.ttf">
+      <publishTime>10/26/2017 09:37:22</publishTime>
+    </File>
+    <File Include="css/font/fontawesome-webfontba72.woff">
+      <publishTime>10/26/2017 09:37:22</publishTime>
+    </File>
+    <File Include="css/font/fontawesome-webfontd41d.eot">
+      <publishTime>10/26/2017 09:37:22</publishTime>
+    </File>
+    <File Include="css/green.css">
+      <publishTime>10/26/2017 09:37:16</publishTime>
+    </File>
+    <File Include="css/img/alert.png">
+      <publishTime>10/26/2017 09:37:35</publishTime>
+    </File>
+    <File Include="css/img/details_open.png">
+      <publishTime>10/26/2017 09:37:35</publishTime>
+    </File>
+    <File Include="css/img/error.png">
+      <publishTime>10/26/2017 09:37:35</publishTime>
+    </File>
+    <File Include="css/img/img1.jpg">
+      <publishTime>10/28/2017 11:48:38</publishTime>
+    </File>
+    <File Include="css/img/img2.jpg">
+      <publishTime>10/28/2017 11:48:38</publishTime>
+    </File>
+    <File Include="css/img/img3.jpg">
+      <publishTime>10/28/2017 11:48:38</publishTime>
+    </File>
+    <File Include="css/img/input-spinner.gif">
+      <publishTime>10/26/2017 09:37:35</publishTime>
+    </File>
+    <File Include="css/img/llave.svg">
+      <publishTime>10/27/2017 15:51:28</publishTime>
+    </File>
+    <File Include="css/img/lockscreen-bg.jpg">
+      <publishTime>10/26/2017 09:37:35</publishTime>
+    </File>
+    <File Include="css/img/minus.png">
+      <publishTime>10/26/2017 09:37:35</publishTime>
+    </File>
+    <File Include="css/img/plus-white.png">
+      <publishTime>10/26/2017 09:37:35</publishTime>
+    </File>
+    <File Include="css/img/plus.png">
+      <publishTime>10/26/2017 09:37:35</publishTime>
+    </File>
+    <File Include="css/img/user-log.svg">
+      <publishTime>10/27/2017 15:51:28</publishTime>
+    </File>
+    <File Include="css/img/user.svg">
+      <publishTime>10/27/2017 15:48:33</publishTime>
+    </File>
+    <File Include="css/img/usuario.jpg">
+      <publishTime>10/26/2017 10:34:58</publishTime>
+    </File>
+    <File Include="css/jquery-ui-1.10.3.css">
+      <publishTime>10/26/2017 09:37:16</publishTime>
+    </File>
+    <File Include="css/miEstilo.css">
+      <publishTime>10/28/2017 12:25:38</publishTime>
+    </File>
+    <File Include="css/minimal.css">
+      <publishTime>10/26/2017 09:37:16</publishTime>
+    </File>
+    <File Include="css/purple.css">
+      <publishTime>10/26/2017 09:37:16</publishTime>
+    </File>
+    <File Include="css/red.css">
+      <publishTime>10/26/2017 09:37:16</publishTime>
+    </File>
+    <File Include="css/square.css">
+      <publishTime>10/26/2017 09:37:16</publishTime>
+    </File>
+    <File Include="css/style-responsive.css">
+      <publishTime>10/26/2017 09:37:16</publishTime>
+    </File>
+    <File Include="css/style.css">
+      <publishTime>10/26/2017 09:37:16</publishTime>
+    </File>
+    <File Include="css/table-responsive.css">
+      <publishTime>10/26/2017 09:37:16</publishTime>
+    </File>
+    <File Include="css/yellow.css">
+      <publishTime>10/26/2017 09:37:16</publishTime>
+    </File>
+    <File Include="DataCarrera.xsc">
+      <publishTime>10/28/2017 17:58:47</publishTime>
+    </File>
+    <File Include="DataCarrera.xsd">
+      <publishTime>10/28/2017 17:58:46</publishTime>
+    </File>
+    <File Include="DataCarrera.xss">
+      <publishTime>10/28/2017 17:58:47</publishTime>
+    </File>
+    <File Include="DataDocente.xsc">
+      <publishTime>10/28/2017 17:34:14</publishTime>
+    </File>
+    <File Include="DataDocente.xsd">
+      <publishTime>10/28/2017 17:34:13</publishTime>
+    </File>
+    <File Include="DataDocente.xss">
+      <publishTime>10/28/2017 17:34:14</publishTime>
+    </File>
+    <File Include="DataSemestre.xsc">
+      <publishTime>10/28/2017 18:03:24</publishTime>
+    </File>
+    <File Include="DataSemestre.xsd">
+      <publishTime>10/28/2017 18:03:24</publishTime>
+    </File>
+    <File Include="DataSemestre.xss">
+      <publishTime>10/28/2017 18:03:24</publishTime>
+    </File>
+    <File Include="DataSetAlumno.xsc">
+      <publishTime>10/28/2017 13:32:05</publishTime>
+    </File>
+    <File Include="DataSetAlumno.xsd">
+      <publishTime>10/28/2017 13:32:04</publishTime>
+    </File>
+    <File Include="DataSetAlumno.xss">
+      <publishTime>10/28/2017 13:32:05</publishTime>
+    </File>
+    <File Include="DataUsuario.xsc">
+      <publishTime>10/28/2017 17:48:01</publishTime>
+    </File>
+    <File Include="DataUsuario.xsd">
+      <publishTime>10/28/2017 17:48:00</publishTime>
+    </File>
+    <File Include="DataUsuario.xss">
+      <publishTime>10/28/2017 17:48:01</publishTime>
+    </File>
+    <File Include="DBNOTASDataSet.xsc">
+      <publishTime>11/04/2017 20:16:05</publishTime>
+    </File>
+    <File Include="DBNOTASDataSet.xsd">
+      <publishTime>11/04/2017 20:16:03</publishTime>
+    </File>
+    <File Include="DBNOTASDataSet.xss">
+      <publishTime>11/04/2017 20:16:05</publishTime>
+    </File>
+    <File Include="DBNOTASDataSetfff.xsc">
+      <publishTime>11/07/2017 16:20:34</publishTime>
+    </File>
+    <File Include="DBNOTASDataSetfff.xsd">
+      <publishTime>11/07/2017 16:20:33</publishTime>
+    </File>
+    <File Include="DBNOTASDataSetfff.xss">
+      <publishTime>11/07/2017 16:20:34</publishTime>
+    </File>
+    <File Include="DBNOTASDataSetRegistro.xsc">
+      <publishTime>11/07/2017 16:39:53</publishTime>
+    </File>
+    <File Include="DBNOTASDataSetRegistro.xsd">
+      <publishTime>11/07/2017 16:39:52</publishTime>
+    </File>
+    <File Include="DBNOTASDataSetRegistro.xss">
+      <publishTime>11/07/2017 16:39:53</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>10/28/2017 11:47:19</publishTime>
+    </File>
+    <File Include="Form_Alumno.aspx">
+      <publishTime>11/04/2017 22:09:36</publishTime>
+    </File>
+    <File Include="Form_Carrera.aspx">
+      <publishTime>10/28/2017 11:35:02</publishTime>
+    </File>
+    <File Include="Form_Curso.aspx">
+      <publishTime>10/28/2017 13:05:24</publishTime>
+    </File>
+    <File Include="Form_Docente.aspx">
+      <publishTime>10/28/2017 11:35:02</publishTime>
+    </File>
+    <File Include="Form_Login.aspx">
+      <publishTime>10/28/2017 14:33:33</publishTime>
+    </File>
+    <File Include="Form_Registro.aspx">
+      <publishTime>10/28/2017 13:22:06</publishTime>
+    </File>
+    <File Include="Form_Semestre.aspx">
+      <publishTime>11/07/2017 16:11:06</publishTime>
+    </File>
+    <File Include="Form_Usuario.aspx">
+      <publishTime>10/28/2017 11:35:02</publishTime>
+    </File>
+    <File Include="ico_font/demo.html">
+      <publishTime>10/26/2017 11:31:10</publishTime>
+    </File>
+    <File Include="ico_font/font/icomoon.eot">
+      <publishTime>10/26/2017 11:31:29</publishTime>
+    </File>
+    <File Include="ico_font/font/icomoon.svg">
+      <publishTime>10/26/2017 11:31:29</publishTime>
+    </File>
+    <File Include="ico_font/font/icomoon.ttf">
+      <publishTime>10/26/2017 11:31:29</publishTime>
+    </File>
+    <File Include="ico_font/font/icomoon.woff">
+      <publishTime>10/26/2017 11:31:29</publishTime>
+    </File>
+    <File Include="ico_font/style.css">
+      <publishTime>10/26/2017 11:41:53</publishTime>
+    </File>
+    <File Include="InforDocente.rdlc">
+      <publishTime>10/28/2017 17:38:35</publishTime>
+    </File>
+    <File Include="InforUsuario.rdlc">
+      <publishTime>10/28/2017 17:54:48</publishTime>
+    </File>
+    <File Include="Infor_Alumno.rdlc">
+      <publishTime>10/28/2017 18:26:00</publishTime>
+    </File>
+    <File Include="Inf_ALumno2.rdlc">
+      <publishTime>11/04/2017 20:16:53</publishTime>
+    </File>
+    <File Include="js/bootstrap.min.js">
+      <publishTime>10/26/2017 09:37:54</publishTime>
+    </File>
+    <File Include="js/flot-chart/jquery.flot.js">
+      <publishTime>10/26/2017 09:38:18</publishTime>
+    </File>
+    <File Include="js/flot-chart/jquery.flot.resize.js">
+      <publishTime>10/26/2017 09:38:18</publishTime>
+    </File>
+    <File Include="js/flot-chart/jquery.flot.tooltip.js">
+      <publishTime>10/26/2017 09:38:18</publishTime>
+    </File>
+    <File Include="js/icheck-init.js">
+      <publishTime>10/26/2017 09:37:54</publishTime>
+    </File>
+    <File Include="js/iCheck/jquery.icheck.js">
+      <publishTime>10/26/2017 09:38:27</publishTime>
+    </File>
+    <File Include="js/jquery-1.10.2.min.js">
+      <publishTime>10/26/2017 09:37:54</publishTime>
+    </File>
+    <File Include="js/jQuery-3.1.0.min.js">
+      <publishTime>10/27/2017 15:42:28</publishTime>
+    </File>
+    <File Include="js/jquery-ui-1.9.2.custom.min.js">
+      <publishTime>10/26/2017 09:37:54</publishTime>
+    </File>
+    <File Include="js/jquery.nicescroll.js">
+      <publishTime>10/26/2017 09:37:54</publishTime>
+    </File>
+    <File Include="js/modernizr.min.js">
+      <publishTime>10/26/2017 09:37:54</publishTime>
+    </File>
+    <File Include="js/scripts.js">
+      <publishTime>10/26/2017 09:37:54</publishTime>
+    </File>
+    <File Include="PaginaMaestra.Master">
+      <publishTime>10/28/2017 14:22:16</publishTime>
+    </File>
+    <File Include="Report1.rdlc">
+      <publishTime>11/07/2017 15:50:38</publishTime>
+    </File>
+    <File Include="Report2.rdlc">
+      <publishTime>11/07/2017 16:35:21</publishTime>
+    </File>
+    <File Include="Report_Alumno.aspx">
+      <publishTime>11/07/2017 16:35:21</publishTime>
+    </File>
+    <File Include="Report_Alumno2.aspx">
+      <publishTime>11/04/2017 20:14:48</publishTime>
+    </File>
+    <File Include="Report_Docente.aspx">
+      <publishTime>10/28/2017 17:38:35</publishTime>
+    </File>
+    <File Include="Report_Registro.aspx">
+      <publishTime>10/27/2017 14:17:06</publishTime>
+    </File>
+    <File Include="Report_Usuario.aspx">
+      <publishTime>10/28/2017 11:56:31</publishTime>
+    </File>
+    <File Include="RepRegistro.rdlc">
+      <publishTime>11/07/2017 16:49:36</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>11/07/2017 17:23:55</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

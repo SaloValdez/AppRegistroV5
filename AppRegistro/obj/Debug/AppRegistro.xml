@@ -1,0 +1,1428 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+AppRegistro
+</name>
+</assembly>
+<members>
+<member name="T:AppRegistro.DBNOTASDataSetRegistro.REGISTRODataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:AppRegistro.DBNOTASDataSetRegistro.REGISTRORow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:AppRegistro.DBNOTASDataSetRegistro.REGISTRORowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:AppRegistro.DBNOTASDataSetRegistro">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:AppRegistro.DBNOTASDataSetRegistroTableAdapters.REGISTROTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:AppRegistro.DBNOTASDataSetRegistroTableAdapters.TableAdapterManager.UpdateUpdatedRows(AppRegistro.DBNOTASDataSetRegistro,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:AppRegistro.DBNOTASDataSetRegistroTableAdapters.TableAdapterManager.UpdateInsertedRows(AppRegistro.DBNOTASDataSetRegistro,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:AppRegistro.DBNOTASDataSetRegistroTableAdapters.TableAdapterManager.UpdateDeletedRows(AppRegistro.DBNOTASDataSetRegistro,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:AppRegistro.DBNOTASDataSetRegistroTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:AppRegistro.DBNOTASDataSetRegistroTableAdapters.TableAdapterManager.UpdateAll(AppRegistro.DBNOTASDataSetRegistro)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:AppRegistro.DBNOTASDataSetRegistroTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:AppRegistro.DBNOTASDataSetRegistroTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:AppRegistro.DBNOTASDataSetRegistroTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:AppRegistro.DBNOTASDataSetfff.SEMESTREDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:AppRegistro.DBNOTASDataSetfff.SEMESTRERow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:AppRegistro.DBNOTASDataSetfff.SEMESTRERowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:AppRegistro.DBNOTASDataSetfff">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:AppRegistro.DBNOTASDataSetfffTableAdapters.SEMESTRETableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:AppRegistro.DBNOTASDataSetfffTableAdapters.TableAdapterManager.UpdateUpdatedRows(AppRegistro.DBNOTASDataSetfff,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:AppRegistro.DBNOTASDataSetfffTableAdapters.TableAdapterManager.UpdateInsertedRows(AppRegistro.DBNOTASDataSetfff,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:AppRegistro.DBNOTASDataSetfffTableAdapters.TableAdapterManager.UpdateDeletedRows(AppRegistro.DBNOTASDataSetfff,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:AppRegistro.DBNOTASDataSetfffTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:AppRegistro.DBNOTASDataSetfffTableAdapters.TableAdapterManager.UpdateAll(AppRegistro.DBNOTASDataSetfff)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:AppRegistro.DBNOTASDataSetfffTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:AppRegistro.DBNOTASDataSetfffTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:AppRegistro.DBNOTASDataSetfffTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="F:AppRegistro.Report_Alumno.UpdatePanel1">
+	<summary>
+Control UpdatePanel1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.Report_Alumno.repAlumno">
+	<summary>
+Control repAlumno.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="T:AppRegistro.DataCarrera.CARRERADataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:AppRegistro.DataCarrera.CARRERARow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:AppRegistro.DataCarrera.CARRERARowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:AppRegistro.DataCarrera">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:AppRegistro.DataCarreraTableAdapters.CARRERATableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:AppRegistro.DataCarreraTableAdapters.TableAdapterManager.UpdateUpdatedRows(AppRegistro.DataCarrera,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:AppRegistro.DataCarreraTableAdapters.TableAdapterManager.UpdateInsertedRows(AppRegistro.DataCarrera,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:AppRegistro.DataCarreraTableAdapters.TableAdapterManager.UpdateDeletedRows(AppRegistro.DataCarrera,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:AppRegistro.DataCarreraTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:AppRegistro.DataCarreraTableAdapters.TableAdapterManager.UpdateAll(AppRegistro.DataCarrera)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:AppRegistro.DataCarreraTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:AppRegistro.DataCarreraTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:AppRegistro.DataCarreraTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:AppRegistro.DataSemestre.SEMESTREDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:AppRegistro.DataSemestre.SEMESTRERow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:AppRegistro.DataSemestre.SEMESTRERowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:AppRegistro.DataSemestre">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:AppRegistro.DataSemestreTableAdapters.SEMESTRETableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:AppRegistro.DataSemestreTableAdapters.TableAdapterManager.UpdateUpdatedRows(AppRegistro.DataSemestre,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:AppRegistro.DataSemestreTableAdapters.TableAdapterManager.UpdateInsertedRows(AppRegistro.DataSemestre,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:AppRegistro.DataSemestreTableAdapters.TableAdapterManager.UpdateDeletedRows(AppRegistro.DataSemestre,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:AppRegistro.DataSemestreTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:AppRegistro.DataSemestreTableAdapters.TableAdapterManager.UpdateAll(AppRegistro.DataSemestre)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:AppRegistro.DataSemestreTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:AppRegistro.DataSemestreTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:AppRegistro.DataSemestreTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="F:AppRegistro.Form_Login1.form1">
+	<summary>
+Control form1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.Form_Login1.txtUsuario">
+	<summary>
+Control txtUsuario.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.Form_Login1.txtContrasena">
+	<summary>
+Control txtContrasena.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.Form_Login1.btnEntrar">
+	<summary>
+Control btnEntrar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.Form_Login1.Button1">
+	<summary>
+Control Button1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.Form_Semestre.UpdatePanel1">
+	<summary>
+Control UpdatePanel1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.Form_Semestre.Label1">
+	<summary>
+Control Label1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.Form_Semestre.txtId">
+	<summary>
+Control txtId.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.Form_Semestre.Label2">
+	<summary>
+Control Label2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.Form_Semestre.txtDescripcion">
+	<summary>
+Control txtDescripcion.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.Form_Semestre.btnGuardar">
+	<summary>
+Control btnGuardar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.Form_Semestre.btnModificar">
+	<summary>
+Control btnModificar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.Form_Semestre.btnEliminar">
+	<summary>
+Control btnEliminar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.Form_Semestre.btnCancelar">
+	<summary>
+Control btnCancelar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.Form_Semestre.txtCorrecto">
+	<summary>
+Control txtCorrecto.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.Form_Semestre.txtError">
+	<summary>
+Control txtError.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.Form_Semestre.gwSemestre">
+	<summary>
+Control gwSemestre.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.Form_Usuario.UpdatePanel1">
+	<summary>
+Control UpdatePanel1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.Form_Usuario.Label1">
+	<summary>
+Control Label1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.Form_Usuario.txtId">
+	<summary>
+Control txtId.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.Form_Usuario.Label2">
+	<summary>
+Control Label2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.Form_Usuario.txtUsuario">
+	<summary>
+Control txtUsuario.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.Form_Usuario.Label3">
+	<summary>
+Control Label3.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.Form_Usuario.txtContrasena">
+	<summary>
+Control txtContrasena.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.Form_Usuario.btnGuardar">
+	<summary>
+Control btnGuardar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.Form_Usuario.btnModificar">
+	<summary>
+Control btnModificar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.Form_Usuario.btnEliminar">
+	<summary>
+Control btnEliminar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.Form_Usuario.btnCancelar">
+	<summary>
+Control btnCancelar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.Form_Usuario.txtCorrecto">
+	<summary>
+Control txtCorrecto.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.Form_Usuario.txtError">
+	<summary>
+Control txtError.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.Form_Usuario.gwUsuario">
+	<summary>
+Control gwUsuario.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.PaginaMaestra.head">
+	<summary>
+Control head.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.PaginaMaestra.form1">
+	<summary>
+Control form1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.PaginaMaestra.ScriptManager1">
+	<summary>
+Control ScriptManager1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.PaginaMaestra.txtCuentaUsuario">
+	<summary>
+Control txtCuentaUsuario.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.PaginaMaestra.ContentPlaceHolder1">
+	<summary>
+Control ContentPlaceHolder1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.Form_Curso.UpdatePanel1">
+	<summary>
+Control UpdatePanel1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.Form_Curso.Label1">
+	<summary>
+Control Label1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.Form_Curso.txtId">
+	<summary>
+Control txtId.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.Form_Curso.Label2">
+	<summary>
+Control Label2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.Form_Curso.txtNombre">
+	<summary>
+Control txtNombre.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.Form_Curso.btnGuardar">
+	<summary>
+Control btnGuardar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.Form_Curso.btnModificar">
+	<summary>
+Control btnModificar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.Form_Curso.btnEliminar">
+	<summary>
+Control btnEliminar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.Form_Curso.btnCancelar">
+	<summary>
+Control btnCancelar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.Form_Curso.txtCorrecto">
+	<summary>
+Control txtCorrecto.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.Form_Curso.txtError">
+	<summary>
+Control txtError.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.Form_Curso.gwCurso">
+	<summary>
+Control gwCurso.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.Form_Registro.UpdatePanel1">
+	<summary>
+Control UpdatePanel1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.Form_Registro.Label1">
+	<summary>
+Control Label1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.Form_Registro.txtId">
+	<summary>
+Control txtId.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.Form_Registro.Label5">
+	<summary>
+Control Label5.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.Form_Registro.droAlumno">
+	<summary>
+Control droAlumno.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.Form_Registro.Label6">
+	<summary>
+Control Label6.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.Form_Registro.droCurso">
+	<summary>
+Control droCurso.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.Form_Registro.Label7">
+	<summary>
+Control Label7.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.Form_Registro.droDocente">
+	<summary>
+Control droDocente.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.Form_Registro.Label2">
+	<summary>
+Control Label2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.Form_Registro.txtNota1">
+	<summary>
+Control txtNota1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.Form_Registro.Label3">
+	<summary>
+Control Label3.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.Form_Registro.txtNota2">
+	<summary>
+Control txtNota2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.Form_Registro.Label8">
+	<summary>
+Control Label8.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.Form_Registro.txtNota3">
+	<summary>
+Control txtNota3.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.Form_Registro.btnGuardar">
+	<summary>
+Control btnGuardar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.Form_Registro.btnModificar">
+	<summary>
+Control btnModificar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.Form_Registro.btnEliminar">
+	<summary>
+Control btnEliminar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.Form_Registro.btnCancelar">
+	<summary>
+Control btnCancelar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.Form_Registro.txtCorrecto">
+	<summary>
+Control txtCorrecto.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.Form_Registro.txtError">
+	<summary>
+Control txtError.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.Form_Registro.gwRegistro">
+	<summary>
+Control gwRegistro.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.Report_Usuario.UpdatePanel1">
+	<summary>
+Control UpdatePanel1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.Report_Usuario.repUsuario">
+	<summary>
+Control repUsuario.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.Form_Docente.UpdatePanel1">
+	<summary>
+Control UpdatePanel1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.Form_Docente.Label1">
+	<summary>
+Control Label1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.Form_Docente.txtId">
+	<summary>
+Control txtId.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.Form_Docente.Label2">
+	<summary>
+Control Label2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.Form_Docente.txtNombres">
+	<summary>
+Control txtNombres.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.Form_Docente.btnGuardar">
+	<summary>
+Control btnGuardar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.Form_Docente.btnModificar">
+	<summary>
+Control btnModificar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.Form_Docente.btnEliminar">
+	<summary>
+Control btnEliminar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.Form_Docente.btnCancelar">
+	<summary>
+Control btnCancelar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.Form_Docente.txtCorrecto">
+	<summary>
+Control txtCorrecto.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.Form_Docente.txtError">
+	<summary>
+Control txtError.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.Form_Docente.gwDocente">
+	<summary>
+Control gwDocente.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="P:AppRegistro.My.MyWebExtension.Computer">
+	<summary>
+ Devuelve información sobre el equipo host.
+ </summary>
+</member><member name="P:AppRegistro.My.MyWebExtension.User">
+	<summary>
+ Devuelve información del usuario web actual.
+ </summary>
+</member><member name="P:AppRegistro.My.MyWebExtension.Request">
+	<summary>
+ Devuelve un objeto Request.
+ </summary>
+</member><member name="P:AppRegistro.My.MyWebExtension.Response">
+	<summary>
+ Devuelve un objeto Response.
+ </summary>
+</member><member name="P:AppRegistro.My.MyWebExtension.Log">
+	<summary>
+ Devuelve el objeto de registro Asp.
+ </summary>
+</member><member name="T:AppRegistro.My.MyWebExtension">
+	<summary>
+ Módulo usado para definir las propiedades que están disponibles en el espacio de nombres My para proyectos web.
+ </summary>
+	<remarks></remarks>
+</member><member name="F:AppRegistro.Report_Docente.UpdatePanel1">
+	<summary>
+Control UpdatePanel1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.Report_Docente.repDocente">
+	<summary>
+Control repDocente.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.Form_Alumno.UpdatePanel1">
+	<summary>
+Control UpdatePanel1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.Form_Alumno.Label1">
+	<summary>
+Control Label1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.Form_Alumno.txtId">
+	<summary>
+Control txtId.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.Form_Alumno.Label2">
+	<summary>
+Control Label2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.Form_Alumno.txtNombre">
+	<summary>
+Control txtNombre.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.Form_Alumno.Label3">
+	<summary>
+Control Label3.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.Form_Alumno.txtApellido">
+	<summary>
+Control txtApellido.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.Form_Alumno.Label4">
+	<summary>
+Control Label4.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.Form_Alumno.txtDireccion">
+	<summary>
+Control txtDireccion.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.Form_Alumno.Label5">
+	<summary>
+Control Label5.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.Form_Alumno.droCarrera">
+	<summary>
+Control droCarrera.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.Form_Alumno.Label6">
+	<summary>
+Control Label6.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.Form_Alumno.droSemestre">
+	<summary>
+Control droSemestre.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.Form_Alumno.btnGuardar">
+	<summary>
+Control btnGuardar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.Form_Alumno.btnModificar">
+	<summary>
+Control btnModificar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.Form_Alumno.btnEliminar">
+	<summary>
+Control btnEliminar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.Form_Alumno.btnCancelar">
+	<summary>
+Control btnCancelar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.Form_Alumno.txtCorrecto">
+	<summary>
+Control txtCorrecto.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.Form_Alumno.txtError">
+	<summary>
+Control txtError.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.Form_Alumno.gwAlumno">
+	<summary>
+Control gwAlumno.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.Report_Registro.UpdatePanel1">
+	<summary>
+Control UpdatePanel1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.Report_Registro.repRegistro">
+	<summary>
+Control repRegistro.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="T:AppRegistro.DataDocente.DOCENTEDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:AppRegistro.DataDocente.DOCENTERow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:AppRegistro.DataDocente.DOCENTERowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:AppRegistro.DataDocente">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:AppRegistro.DataDocenteTableAdapters.DOCENTETableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:AppRegistro.DataDocenteTableAdapters.TableAdapterManager.UpdateUpdatedRows(AppRegistro.DataDocente,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:AppRegistro.DataDocenteTableAdapters.TableAdapterManager.UpdateInsertedRows(AppRegistro.DataDocente,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:AppRegistro.DataDocenteTableAdapters.TableAdapterManager.UpdateDeletedRows(AppRegistro.DataDocente,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:AppRegistro.DataDocenteTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:AppRegistro.DataDocenteTableAdapters.TableAdapterManager.UpdateAll(AppRegistro.DataDocente)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:AppRegistro.DataDocenteTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:AppRegistro.DataDocenteTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:AppRegistro.DataDocenteTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:AppRegistro.DataUsuario.USUARIODataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:AppRegistro.DataUsuario.USUARIORow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:AppRegistro.DataUsuario.USUARIORowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:AppRegistro.DataUsuario">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:AppRegistro.DataUsuarioTableAdapters.USUARIOTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:AppRegistro.DataUsuarioTableAdapters.TableAdapterManager.UpdateUpdatedRows(AppRegistro.DataUsuario,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:AppRegistro.DataUsuarioTableAdapters.TableAdapterManager.UpdateInsertedRows(AppRegistro.DataUsuario,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:AppRegistro.DataUsuarioTableAdapters.TableAdapterManager.UpdateDeletedRows(AppRegistro.DataUsuario,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:AppRegistro.DataUsuarioTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:AppRegistro.DataUsuarioTableAdapters.TableAdapterManager.UpdateAll(AppRegistro.DataUsuario)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:AppRegistro.DataUsuarioTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:AppRegistro.DataUsuarioTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:AppRegistro.DataUsuarioTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:AppRegistro.DBNOTASDataSet.ALUMNODataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:AppRegistro.DBNOTASDataSet.ALUMNORow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:AppRegistro.DBNOTASDataSet.ALUMNORowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:AppRegistro.DBNOTASDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:AppRegistro.DBNOTASDataSetTableAdapters.ALUMNOTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:AppRegistro.DBNOTASDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(AppRegistro.DBNOTASDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:AppRegistro.DBNOTASDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(AppRegistro.DBNOTASDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:AppRegistro.DBNOTASDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(AppRegistro.DBNOTASDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:AppRegistro.DBNOTASDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:AppRegistro.DBNOTASDataSetTableAdapters.TableAdapterManager.UpdateAll(AppRegistro.DBNOTASDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:AppRegistro.DBNOTASDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:AppRegistro.DBNOTASDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:AppRegistro.DBNOTASDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="F:AppRegistro.Form_Carrera.UpdatePanel1">
+	<summary>
+Control UpdatePanel1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.Form_Carrera.Label1">
+	<summary>
+Control Label1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.Form_Carrera.txtId">
+	<summary>
+Control txtId.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.Form_Carrera.Label2">
+	<summary>
+Control Label2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.Form_Carrera.txtDescripcion">
+	<summary>
+Control txtDescripcion.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.Form_Carrera.btnGuardar">
+	<summary>
+Control btnGuardar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.Form_Carrera.btnModificar">
+	<summary>
+Control btnModificar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.Form_Carrera.btnEliminar">
+	<summary>
+Control btnEliminar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.Form_Carrera.btnCancelar">
+	<summary>
+Control btnCancelar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.Form_Carrera.txtCorrecto">
+	<summary>
+Control txtCorrecto.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.Form_Carrera.txtError">
+	<summary>
+Control txtError.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:AppRegistro.Form_Carrera.gwCarrera">
+	<summary>
+Control gwCarrera.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="T:AppRegistro.DataSetAlumno.ALUMNODataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:AppRegistro.DataSetAlumno.ALUMNORow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:AppRegistro.DataSetAlumno.ALUMNORowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:AppRegistro.DataSetAlumno">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:AppRegistro.DataSetAlumnoTableAdapters.ALUMNOTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:AppRegistro.DataSetAlumnoTableAdapters.TableAdapterManager.UpdateUpdatedRows(AppRegistro.DataSetAlumno,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:AppRegistro.DataSetAlumnoTableAdapters.TableAdapterManager.UpdateInsertedRows(AppRegistro.DataSetAlumno,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:AppRegistro.DataSetAlumnoTableAdapters.TableAdapterManager.UpdateDeletedRows(AppRegistro.DataSetAlumno,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:AppRegistro.DataSetAlumnoTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:AppRegistro.DataSetAlumnoTableAdapters.TableAdapterManager.UpdateAll(AppRegistro.DataSetAlumno)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:AppRegistro.DataSetAlumnoTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:AppRegistro.DataSetAlumnoTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:AppRegistro.DataSetAlumnoTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+</members>
+</doc>

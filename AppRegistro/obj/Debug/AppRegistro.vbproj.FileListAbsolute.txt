@@ -1,0 +1,24 @@
+C:\Users\SaloNet\Documents\Visual Studio 2013\Projects\AppRegistro\AppRegistro\bin\AppRegistro.dll.config
+C:\Users\SaloNet\Documents\Visual Studio 2013\Projects\AppRegistro\AppRegistro\bin\AppRegistro.dll
+C:\Users\SaloNet\Documents\Visual Studio 2013\Projects\AppRegistro\AppRegistro\bin\AppRegistro.pdb
+C:\Users\SaloNet\Documents\Visual Studio 2013\Projects\AppRegistro\AppRegistro\bin\AppRegistro.xml
+C:\Users\SaloNet\Documents\Visual Studio 2013\Projects\AppRegistro\AppRegistro\obj\Debug\AppRegistro.Resources.resources
+C:\Users\SaloNet\Documents\Visual Studio 2013\Projects\AppRegistro\AppRegistro\obj\Debug\AppRegistro.vbproj.GenerateResource.Cache
+C:\Users\SaloNet\Documents\Visual Studio 2013\Projects\AppRegistro\AppRegistro\obj\Debug\AppRegistro.dll
+C:\Users\SaloNet\Documents\Visual Studio 2013\Projects\AppRegistro\AppRegistro\obj\Debug\AppRegistro.xml
+C:\Users\SaloNet\Documents\Visual Studio 2013\Projects\AppRegistro\AppRegistro\obj\Debug\AppRegistro.pdb
+C:\Users\SaloNet\Documents\Visual Studio 2013\Projects\AppRegistro\AppRegistro\obj\Debug\AppRegistro.vbprojResolveAssemblyReference.cache
+C:\Users\SaloNet\Documents\Visual Studio 2013\Projects\AppRegistro\AppRegistro\obj\Debug\RdlCompile.cache
+C:\Users\SaloNet\Documents\Visual Studio 2013\Projects\AppRegistro\AppRegistro\obj\Debug\RdlCompile.compiled
+\\SALONET\Users\Public\MIERCOLES\AppRegistro\AppRegistro\bin\AppRegistro.dll.config
+\\SALONET\Users\Public\MIERCOLES\AppRegistro\AppRegistro\bin\AppRegistro.dll
+\\SALONET\Users\Public\MIERCOLES\AppRegistro\AppRegistro\bin\AppRegistro.pdb
+\\SALONET\Users\Public\MIERCOLES\AppRegistro\AppRegistro\bin\AppRegistro.xml
+\\SALONET\Users\Public\MIERCOLES\AppRegistro\AppRegistro\obj\Debug\AppRegistro.vbprojResolveAssemblyReference.cache
+\\SALONET\Users\Public\MIERCOLES\AppRegistro\AppRegistro\obj\Debug\AppRegistro.Resources.resources
+\\SALONET\Users\Public\MIERCOLES\AppRegistro\AppRegistro\obj\Debug\AppRegistro.vbproj.GenerateResource.Cache
+\\SALONET\Users\Public\MIERCOLES\AppRegistro\AppRegistro\obj\Debug\RdlCompile.cache
+\\SALONET\Users\Public\MIERCOLES\AppRegistro\AppRegistro\obj\Debug\RdlCompile.compiled
+\\SALONET\Users\Public\MIERCOLES\AppRegistro\AppRegistro\obj\Debug\AppRegistro.dll
+\\SALONET\Users\Public\MIERCOLES\AppRegistro\AppRegistro\obj\Debug\AppRegistro.xml
+\\SALONET\Users\Public\MIERCOLES\AppRegistro\AppRegistro\obj\Debug\AppRegistro.pdb
